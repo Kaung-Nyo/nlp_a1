@@ -4,7 +4,7 @@ services:
   dash:
     # command: tail -f /dev/null
     command: python3 main.py
-    image: kaungnyo/nlp-a1:v1
+    image: kaungnyo/nlp-a1:v3
     # image: 9094122df989
     # platform: linux/x86_64
     build: 

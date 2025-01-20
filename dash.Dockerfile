@@ -1,7 +1,7 @@
 FROM python:3.10.12
 
-WORKDIR /root/code
-# WORKDIR /home/knl/DSAI/ML/Car/Car_Price_Prediction_Model/code
+WORKDIR /root/app
+# WORKDIR /home/knl/DSAI/NLP/w1/a1/app
 
 RUN pip3 install dash
 RUN pip3 install pandas
@@ -18,7 +18,7 @@ RUN pip3 install nltk
 # Testing module
 RUN pip3 install dash[testing]
 
-COPY ./app /root/app
+COPY ./app /root/app/
 # COPY . ./
 # CMD tail -f /dev/null
 
