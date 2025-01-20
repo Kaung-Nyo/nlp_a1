@@ -20,7 +20,7 @@ nltk.download('punkt_tab')
 
 external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 
-filename = 'app/model/glove_gensim_model.model'
+filename = './model/glove_gensim_model.model'
 loaded_model = pickle.load(open(filename, 'rb'))
 
 # Create a dash application
